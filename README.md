@@ -1,6 +1,10 @@
 # 🐥 Flappy Bird Game  
+“Flap high, fall hard, rise again — that’s the spirit of the bird!” 🐥🔥
 
+---
+Demo: https://dilshad8581.github.io/Flappy-bird/
 
+---
 ## 🎮 Overview  
 
 A fun and addictive **Flappy Bird clone** built using **HTML, CSS, and JavaScript**.  
