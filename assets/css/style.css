@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Concert One", cursive;
+  font-size: 1.5rem;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  text-transform: capitalize;
+  color: red;
+  background: linear-gradient(270deg, #2c3e50, #3498db);
+}
+
+b {
+  background: #011e0e;
+}
+
+.gameDetail {
+  display: grid;
+  text-align: center;
+  padding: 1rem 2rem;
+  line-height: 2.5rem;
+  background: linear-gradient(100deg, #01243a, #383f01);
+  box-shadow: 0 0 8rem 2rem rgba(184, 90, 255, 0.5);
+  border-radius: 0 0 20rem 20rem;
+  color: #349b3e;
+  z-index: 100;
+}
+
+#canvas {
+  margin-top: 5rem;
+  width: 360px;
+  height: 660px;
+  box-shadow: 0 0 8rem 2rem rgba(255, 233, 90, 0.5);
+  border: 2px double #1c291c;
+}
